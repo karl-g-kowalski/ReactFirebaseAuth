@@ -1,0 +1,21 @@
+
+# create react+vite app 
+Charon:Section03 killer$ npm create vite@latest client
+Need to install the following packages:
+create-vite@5.1.0
+Ok to proceed? (y) y
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript + SWC
+
+# change directory and install JS packages
+Charon:Section03 killer$ cd client
+Charon:client killer$ npm install
+
+# install tailwind et al
+Charon:client killer$ npm install -D tailwindcss postcss autoprefixer
+
+\# initialize TailwindCSS
+Charon:client killer$ npx tailwindcss init -p
+
+# run dev site
+Charon:client killer$ npm run dev
